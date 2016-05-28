@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE dataset SYSTEM "doc/example/iswc.dtd">
+<dataset>
+  <conferences ConfID="23541" Name="International Semantic Web Conference 2002" URI="http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002" Date="June 9-12, 2002" Location="Sardinia" Datum="2002-10-09 00:00:00.0"/>
+  <conferences ConfID="23542" Name="15th International World Wide Web Conference" Date="May 23-26, 2006" Location="Edinburgh" Datum="2006-05-23 00:00:00.0"/>
+  <organizations OrgID="1" Name="USC Information Sciences Institute" Address="4676 Admirality Way" Location="Marina Del Rey" Country="United States" URI="http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#ISI"/>
+  <organizations OrgID="2" Type="U" Name="University of Karlsruhe" URI="http://annotation.semanticweb.org/iswc/iswc.daml#University_of_Karlsruhe"/>
+  <organizations OrgID="3" Type="U" Name="International University in Germany" URI="http://www.i-u.de/schools/eberhart/iswc2002/#International University in Germany"/>
+  <organizations OrgID="4" Type="I" Name="AIFB" Location="Karlsruhe" Country="Germany" URI="http://annotation.semanticweb.org/iswc/iswc.daml#AIFB" Homepage="http://www.aifb.uni-karlsruhe.de/"/>
+  <organizations OrgID="5" Type="D" Name="Department of Computer Science" Address="De Boelelaan 1081a" Location="Amsterdam" Postcode="1081 HV" Country="The Netherlands" URI="http://www.cs.vu.nl/~borys/papers/abstracts/ISWC2002.html#CSVUNL" Belongsto="6"/>
+  <organizations OrgID="6" Type="U" Name="Vrije Universiteit Amsterdam" Address="De Boelelaan 1105" Location="Amsterdam" Postcode="1081 HV" Country="The Netherlands" URI="http://www.cs.vu.nl/~borys/papers/abstracts/ISWC2002.html#VrijeUniversiteitAmsterdam"/>
+  <organizations OrgID="7" Name="Hewlett-Packard Laboratories, Bristol" Address="Filton Road" Location="Bristol" Postcode="BS34 8QZ" Country="UK" URI="http://www.hpl.hp.co.uk#HPL" Homepage="http://www.hpl.hp.com/"/>
+  <organizations OrgID="8" Type="I" Name="Institute for the Protection and Security of the Citizen" Address="Via Enrico Fermi, 1&#xA;21020 - Ispra (Italy)" URI="http://dma.jrc.it#Institute for the Protection and Security of the Citizen"/>
+  <organizations OrgID="9" Type="D" Name="Dipartimento di Ingegneria dell&apos;Informazione" Address="Via Vignolese 905" Location="Modena" Country="Italy" URI="http://www.dbgroup.unimo.it/iswc/iswc.html#DII"/>
+  <papers PaperID="1" Title="Trusting Information Sources One Citizen at a Time" Abstract="This paper describes an approach to derive assessments about information &#xA;      sources based on individual feedback about the sources. We describe &#xA;      TRELLIS, a system that helps users annotate their analysis of &#xA;      alternative information sources that can be contradictory and &#xA;      incomplete. As the user makes a decision on which sources to dismiss and &#xA;      which to believe in making a final decision, TRELLIS captures the &#xA;      derivation of the decision in a semantic markup. TRELLIS then uses these &#xA;      annotations to derive an assessment of the source based on the &#xA;      annotations of many individuals. Our work builds on the Semantic Web and &#xA;      presents a tool that helps users create annotations that are in a mix of &#xA;      formal and human language, and exploits the formal representations to &#xA;      derive measures of trust in the content of Web resources and their &#xA;      original source." URI="http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Trusting Information Sources One Citizen at a Time" Year="2002" Conference="23541" Publish="true"/>
+  <papers PaperID="2" Title="Automatic Generation of Java/SQL based Inference Engines from RDF Schema and RuleML" Abstract="This paper describes two approaches for automatically converting RDF Schema &#xA;and RuleML sources into an inference engine and storage repository. Rather than &#xA;using traditional inference systems, our solution bases on mainstream &#xA;technologies like Java and relational database systems. While this necessarily &#xA;imposes some restrictions, the ease of integration into an existing IT landscape &#xA;is a major advantage. We present the conversion tools and their limitations. &#xA;Furthermore, an extension to RuleML is proposed, that allows Java-enabled &#xA;reaction rules, where calls to Java libraries can be performed upon a rule &#xA;firing. This requires hosts to be Java-enabled when rules and code are moved &#xA;across the web. However, the solution allows for great engineering &#xA;flexibility." URI="http://www.i-u.de/schools/eberhart/iswc2002/#Automatic Generation of Java/SQL based Inference Engines from RDF Schema and RuleML" Year="2002" Conference="23541" Publish="true"/>
+  <papers PaperID="3" Publish="true"/>
+  <papers PaperID="4" Title="Three Implementations of SquishQL, a Simple RDF Query Language" Abstract="RDF provides a basic way to represent data for the Semantic Web. We have &#xA;      been experimenting with the query paradigm for working with RDF data in &#xA;      semantic web applications. Query of RDF data provides a declarative &#xA;      access mechanism that is suitable for application usage and remote &#xA;      access. We describe work on a conceptual model for querying RDF data &#xA;      that refines ideas first presented in at the W3C workshop on Query &#xA;      Languages and the design of one possible syntax, derived from rdfDB, &#xA;      that is suitable for application programmers. Further, we present &#xA;      experience gained in three implementations of the query language." URI="http://www-uk.hpl.hp.com/people/afs/Abstracts/ISWC2002-SquishQL-Abstract.html#SquishQL" Year="2003" Conference="23541" Publish="true"/>
+  <papers PaperID="5" Title="A Data Integration Framework for E-commerce Product Classification" Abstract="A marketplace is &#xA;      the place in which the demand and supply of buyers and vendors &#xA;      participating in a business process may meet. Therefore, electronic &#xA;      marketplaces are virtual communities in which buyers may meet proposals &#xA;      of several suppliers and make the best choice. In the electronic &#xA;      commerce world, the comparison between different products is blocked due &#xA;      to the lack of standards (on the contrary, the proliferation of &#xA;      standards) describing and classifying them. Therefore, the need for B2B &#xA;      and B2C marketplaces is to reclassify products and goods according to &#xA;      different standardization models. This paper aims to face this problem &#xA;      by suggesting the use of a semi-automatic methodology, supported by a &#xA;      tool (SI-Designer), to define the mapping among different e-commerce &#xA;      product classification standards. This methodology was developed for the &#xA;      MOMIS-system within the Intelligent Integration of Information research &#xA;      area. We describe our extension to the methodology that makes it &#xA;      applyable in general to product classification standard, by selecting a &#xA;      fragment of ECCMA/UNSPSC and ecl@ss standard." URI="http://www.dbgroup.unimo.it/iswc/iswc.html#A Data Integration Framework for E-commerce Product Classification" Year="2002" Conference="23541" Publish="true"/>
+  <papers PaperID="6" Title="Integrating Vocabularies: Discovering and Representing Vocabulary Maps" Abstract="The Semantic Web would enable new ways of doing business on the&lt;br&gt;Web &#xA;      that require development of advanced business document&lt;br&gt;integration &#xA;      technologies performing intelligent document&lt;br&gt;transformation. The &#xA;      documents use different vocabularies that&lt;br&gt;consist of large &#xA;      hierarchies of terms. Accordingly, vocabulary&lt;br&gt;mapping and &#xA;      transformation becomes an important task in the whole&lt;br&gt;business &#xA;      document transformation process. It includes several&lt;br&gt;subtasks: map &#xA;      discovery, map representation, and map execution&lt;br&gt;that must be &#xA;      seamlessly integrated into the document integration&lt;br&gt;process. In this &#xA;      paper we discuss the process of discovering the&lt;br&gt;maps between two &#xA;      vocabularies assuming availability of two sets of&lt;br&gt;documents, each &#xA;      using one of the vocabularies. We take the&lt;br&gt;vocabularies of product &#xA;      classification codes as a playground and&lt;br&gt;propose a reusable map &#xA;      discovery technique based on Bayesian text&lt;br&gt;classification approach. &#xA;      We show how the discovered maps can be&lt;br&gt;integrated into the document &#xA;      transformation process." URI="http://www.cs.vu.nl/~borys/papers/abstracts/ISWC2002.html#OmelayenkoISWC2002" Year="2003" Conference="23541" Publish="false"/>
+  <papers PaperID="7" Title="The Semantic Web Revisited" Abstract="The original Scientific American article on the Semantic Web appeared in 2001. It described the evolution of a Web that consisted largely of documents for humans to read to one that included data and information for computers to manipulate. The Semantic Web is a Web of actionable information--information derived from data through a semantic theory for interpreting the symbols.This simple idea, however, remains largely unrealized. Shopbots and auction bots abound on the Web, but these are essentially handcrafted for particular tasks; they have little ability to interact with heterogeneous data and information types. Because we haven&apos;t yet delivered large-scale, agent-based mediation, some commentators argue that the Semantic Web has failed to deliver. We argue that agents can only flourish when standards are well established and that the Web standards for expressing shared meaning have progressed steadily over the past five years. Furthermore, we see the use of ontologies in the e-science community presaging ultimate success for the Semantic Web--just as the use of HTTP within the CERN particle physics community led to the revolutionary success of the original Web. This article is part of a special issue on the Future of AI." URI="http://eprints.ecs.soton.ac.uk/12614/01/Semantic_Web_Revisted.pdf" Year="2006" Publish="true"/>
+  <papers PaperID="8" Title="D2R Server - Publishing Relational Databases on the Web as SPARQL Endpoints" Abstract="The Resource Description Framework and the SPARQL query language provide a standardized way for exposing and linking data sources on the Web. D2R Server is a turn-key solution for making the content of existing, non-RDF databases accessible as SPARQL endpoints. The server takes SPARQL queries from the Web and rewrites them via a mapping into SQL queries against a relational database. This on-the-fly translation allows RDF applications to access the content of large databases without having to replicate them into RDF. D2R Server can be used to integrate existing databases into RDF systems, and to add SPARQL interfaces to database-backed software products. In the talk, we will give an introduction into the D2RQ mapping language, which is used to define mappings between relational and RDF schemata, and demonstrate how D2R Server can be used to extend a WordPress blog with a SPARQL interface." URI="http://www.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/resources/d2r-server-slides-www2006.pdf" Year="2006" Conference="23542" Publish="true"/>
+  <persons PerID="1" Type="Full_Professor" FirstName="Yolanda" LastName="Gil" Email="gil@isi.edu" Homepage="www.example.com" Phone="310-448-8794" URI="http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Yolanda Gil"/>
+  <persons PerID="2" FirstName="Varun" LastName="Ratnakar" Email="varunr@isi.edu" Homepage="http://www.isi.edu/~varunr" URI="http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Varun Ratnakar"/>
+  <persons PerID="3" Type="Researcher" FirstName="Jim" LastName="Blythe" Email="blythe@isi.edu" Homepage="http://www.isi.edu/~varunr" URI="http://trellis.semanticweb.org/expect/web/semanticweb/iswc02_trellis.pdf#Jim Blythe"/>
+  <persons PerID="4" Type="Researcher" FirstName="Andreas" LastName="Eberhart" Address="International University in Germany Campus 2 76646 Bruchsal Germany" Email="eberhart@i-u.de" Homepage="http://www.i-u.de/schools/eberhart/" Phone="+49 7251 700 222" URI="http://www.i-u.de/schools/eberhart/iswc2002/#Andreas Eberhart" Photo="http://www.i-u.de/images/andi.jpg"/>
+  <persons PerID="5" Type="Researcher" FirstName="Borys" LastName="Omelayenko" Address="Vrije Universiteit, Division of Mathematics and Computer Science, De Boelelaan 1081a,1081hv, Amsterdam, The Netherlands" Email="borys@cs.vu.nl" Homepage="http://www.cs.vu.nl/~borys" URI="http://www.cs.vu.nl/~borys#Bomelayenko"/>
+  <persons PerID="6" Type="Researcher" FirstName="Andy" LastName="Seaborne" Address="Hewlett-Packard Laboratories, Bristol, BS34 8QZ, UK" Email="andy.seaborne@hpl.hp.com" Homepage="http://www-uk.hpl.hp.com/people/afs/" URI="http://www-uk.hpl.hp.com/people#andy_seaborne"/>
+  <persons PerID="9" FirstName="Alberto" LastName="Reggiori" Email="areggiori@webweaving.org" Homepage="http://reggiori.webweaving.org/" URI="http://reggiori.webweaving.org#Alberto Reggiori"/>
+  <persons PerID="10" Type="Full_Professor" FirstName="Sonia" LastName="Bergamaschi" Address="DII- Universita di Modena e Reggio Emilia via Vignolese 905 41100 Modena" Email="bergamaschi.sonia@unimo.it" Homepage="http://www.dbgroup.unimo.it/Bergamaschi.html" Phone="+39 059 2056132" URI="http://www.dbgroup.unimo.it/iswc/iswc.html#S. Bergamaschi"/>
+  <persons PerID="11" FirstName="Francesco" LastName="Guerra" Address="DII- Universita di Modena e Reggio Emilia via Vignolese 905 41100 Modena Italy" Email="guerra.francesco@unimo.it" Homepage="http://www.dbgroup.unimo.it/~guerra/" Phone="+39 059 20561543" URI="http://www.dbgroup.unimo.it/iswc/iswc.html#F. Guerra"/>
+  <persons PerID="12" Type="Researcher" FirstName="Christian" LastName="Bizer" Address="Freie Universit&#195;&#164;t Berlin" Email="chris@bizer.de" Homepage="http://www.bizer.de/" URI="http://www.bizer.de/foaf.rdf#chris"/>
+  <topics TopicID="1" TopicName="Knowledge Representation Languages" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Representation_Languages" ParentID="3"/>
+  <topics TopicID="2" TopicName="Knowledge Systems" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Systems" ParentID="15"/>
+  <topics TopicID="3" TopicName="Artificial Intelligence" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Artificial_Intelligence"/>
+  <topics TopicID="4" TopicName="Semantic Annotation" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Annotation" ParentID="5"/>
+  <topics TopicID="5" TopicName="Semantic Web" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Web" ParentID="8"/>
+  <topics TopicID="6" TopicName="Semantic Web Languages" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Web_Languages" ParentID="5"/>
+  <topics TopicID="7" TopicName="Web Services" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Web_Services" ParentID="8"/>
+  <topics TopicID="8" TopicName="World Wide Web" URI="http://annotation.semanticweb.org/iswc/iswc.daml#World_Wide_Web"/>
+  <topics TopicID="9" TopicName="Text Mining" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Text_Mining" ParentID="16"/>
+  <topics TopicID="10" TopicName="Databases" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Databases"/>
+  <topics TopicID="11" TopicName="Semantic Web Infrastructure" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Semantic_Web_Iinfrastructure" ParentID="5"/>
+  <topics TopicID="13" TopicName="E-Business" URI="http://annotation.semanticweb.org/iswc/iswc.daml#e-Business"/>
+  <topics TopicID="14" TopicName="Query Languages" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Query_Languages" ParentID="16"/>
+  <topics TopicID="15" TopicName="Knowledge Management" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Management"/>
+  <topics TopicID="16" TopicName="Knowledge Discovery" URI="http://annotation.semanticweb.org/iswc/iswc.daml#Knowledge_Discovery" ParentID="3"/>
+  <rel_paper_topic PaperID="1" TopicID="5" RelationType="1"/>
+  <rel_paper_topic PaperID="1" TopicID="15" RelationType="2"/>
+  <rel_paper_topic PaperID="2" TopicID="3" RelationType="3"/>
+  <rel_paper_topic PaperID="2" TopicID="5" RelationType="2"/>
+  <rel_paper_topic PaperID="4" TopicID="10" RelationType="2"/>
+  <rel_paper_topic PaperID="4" TopicID="11" RelationType="1"/>
+  <rel_paper_topic PaperID="4" TopicID="14" RelationType="2"/>
+  <rel_paper_topic PaperID="5" TopicID="2" RelationType="3"/>
+  <rel_paper_topic PaperID="5" TopicID="3" RelationType="1"/>
+  <rel_paper_topic PaperID="5" TopicID="13" RelationType="2"/>
+  <rel_paper_topic PaperID="6" TopicID="5" RelationType="2"/>
+  <rel_paper_topic PaperID="6" TopicID="11" RelationType="1"/>
+  <rel_paper_topic PaperID="6" TopicID="13" RelationType="3"/>
+  <rel_person_organization PersonID="1" OrganizationID="1"/>
+  <rel_person_organization PersonID="2" OrganizationID="1"/>
+  <rel_person_organization PersonID="3" OrganizationID="1"/>
+  <rel_person_organization PersonID="4" OrganizationID="3"/>
+  <rel_person_organization PersonID="5" OrganizationID="5"/>
+  <rel_person_organization PersonID="5" OrganizationID="6"/>
+  <rel_person_organization PersonID="6" OrganizationID="7"/>
+  <rel_person_organization PersonID="9" OrganizationID="8"/>
+  <rel_person_organization PersonID="10" OrganizationID="9"/>
+  <rel_person_organization PersonID="11" OrganizationID="9"/>
+  <rel_person_paper PersonID="1" PaperID="1"/>
+  <rel_person_paper PersonID="2" PaperID="1"/>
+  <rel_person_paper PersonID="4" PaperID="2"/>
+  <rel_person_paper PersonID="5" PaperID="6"/>
+  <rel_person_paper PersonID="6" PaperID="4"/>
+  <rel_person_paper PersonID="9" PaperID="4"/>
+  <rel_person_paper PersonID="10" PaperID="5"/>
+  <rel_person_paper PersonID="11" PaperID="5"/>
+  <rel_person_paper PersonID="12" PaperID="8"/>
+  <rel_person_topic PersonID="1" TopicID="1"/>
+  <rel_person_topic PersonID="1" TopicID="2"/>
+  <rel_person_topic PersonID="1" TopicID="3"/>
+  <rel_person_topic PersonID="2" TopicID="5"/>
+  <rel_person_topic PersonID="2" TopicID="6"/>
+  <rel_person_topic PersonID="2" TopicID="7"/>
+  <rel_person_topic PersonID="2" TopicID="8"/>
+  <rel_person_topic PersonID="3" TopicID="1"/>
+  <rel_person_topic PersonID="3" TopicID="2"/>
+  <rel_person_topic PersonID="3" TopicID="3"/>
+  <rel_person_topic PersonID="4" TopicID="1"/>
+  <rel_person_topic PersonID="5" TopicID="5"/>
+  <rel_person_topic PersonID="5" TopicID="7"/>
+  <rel_person_topic PersonID="5" TopicID="13"/>
+  <rel_person_topic PersonID="6" TopicID="5"/>
+  <rel_person_topic PersonID="9" TopicID="5"/>
+  <rel_person_topic PersonID="10" TopicID="5"/>
+  <rel_person_topic PersonID="10" TopicID="10"/>
+  <rel_person_topic PersonID="10" TopicID="15"/>
+  <rel_person_topic PersonID="11" TopicID="5"/>
+  <rel_person_topic PersonID="11" TopicID="10"/>
+</dataset>

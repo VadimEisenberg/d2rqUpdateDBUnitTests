@@ -1,0 +1,93 @@
+<!ELEMENT dataset (
+    conferences*,
+    organizations*,
+    papers*,
+    persons*,
+    topics*,
+    rel_paper_topic*,
+    rel_person_organization*,
+    rel_person_paper*,
+    rel_person_topic*)>
+
+<!ELEMENT conferences EMPTY>
+<!ATTLIST conferences
+    ConfID CDATA #REQUIRED
+    Name CDATA #IMPLIED
+    URI CDATA #IMPLIED
+    Date CDATA #IMPLIED
+    Location CDATA #IMPLIED
+    Datum CDATA #IMPLIED
+>
+
+<!ELEMENT organizations EMPTY>
+<!ATTLIST organizations
+    OrgID CDATA #REQUIRED
+    Type CDATA #IMPLIED
+    Name CDATA #IMPLIED
+    Address CDATA #IMPLIED
+    Location CDATA #IMPLIED
+    Postcode CDATA #IMPLIED
+    Country CDATA #IMPLIED
+    URI CDATA #IMPLIED
+    Belongsto CDATA #IMPLIED
+    Homepage CDATA #IMPLIED
+>
+
+<!ELEMENT papers EMPTY>
+<!ATTLIST papers
+    PaperID CDATA #REQUIRED
+    Title CDATA #IMPLIED
+    Abstract CDATA #IMPLIED
+    URI CDATA #IMPLIED
+    Year CDATA #IMPLIED
+    Conference CDATA #IMPLIED
+    Publish CDATA #IMPLIED
+>
+
+<!ELEMENT persons EMPTY>
+<!ATTLIST persons
+    PerID CDATA #REQUIRED
+    Type CDATA #IMPLIED
+    FirstName CDATA #IMPLIED
+    LastName CDATA #IMPLIED
+    Address CDATA #IMPLIED
+    Email CDATA #IMPLIED
+    Homepage CDATA #IMPLIED
+    Phone CDATA #IMPLIED
+    URI CDATA #IMPLIED
+    Photo CDATA #IMPLIED
+>
+
+<!ELEMENT topics EMPTY>
+<!ATTLIST topics
+    TopicID CDATA #REQUIRED
+    TopicName CDATA #IMPLIED
+    URI CDATA #IMPLIED
+    ParentID CDATA #IMPLIED
+>
+
+<!ELEMENT rel_paper_topic EMPTY>
+<!ATTLIST rel_paper_topic
+    PaperID CDATA #REQUIRED
+    TopicID CDATA #REQUIRED
+    RelationType CDATA #IMPLIED
+>
+
+<!ELEMENT rel_person_organization EMPTY>
+<!ATTLIST rel_person_organization
+    PersonID CDATA #REQUIRED
+    OrganizationID CDATA #REQUIRED
+>
+
+<!ELEMENT rel_person_paper EMPTY>
+<!ATTLIST rel_person_paper
+    PersonID CDATA #REQUIRED
+    PaperID CDATA #REQUIRED
+>
+
+<!ELEMENT rel_person_topic EMPTY>
+<!ATTLIST rel_person_topic
+    PersonID CDATA #REQUIRED
+    TopicID CDATA #REQUIRED
+>
+
