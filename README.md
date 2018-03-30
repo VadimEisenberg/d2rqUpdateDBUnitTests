@@ -1,4 +1,6 @@
 # d2rqUpdateDBUnitTests
+NOT SUPPORTED. Developed during my M.Sc. studies in 2010.
+
 Tests for D2RQ/Update
 
 # License
